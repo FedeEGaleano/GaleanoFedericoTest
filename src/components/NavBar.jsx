@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Nav, NavDropdown, Button, Container, Form, FormControl} from "react-bootstrap"
+import {Navbar, Nav, Button, Container, Form, FormControl} from "react-bootstrap"
+import Carrito from "./Carrito";
 
 
 export default function NavBar(){
@@ -35,9 +36,16 @@ export default function NavBar(){
                         />
                         <Button variant="outline-warning">Search</Button>
                     </Form>
+                    
                 </Navbar.Collapse>
+                <ul>
+                <Carrito /> 
+                </ul>
+                
             </Container>
-        </Navbar>   
+             
+        </Navbar>
+         
         </>
     )
 }
