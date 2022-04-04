@@ -38,9 +38,9 @@ export default function NavBar(){
                     </Form>
                     
                 </Navbar.Collapse>
-                <ul>
+                <Nav.Link>
                 <Carrito /> 
-                </ul>
+                </Nav.Link>
                 
             </Container>
              
