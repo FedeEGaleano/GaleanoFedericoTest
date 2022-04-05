@@ -1,0 +1,21 @@
+
+.card{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.masmenos{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.contador{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
