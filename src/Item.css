@@ -1,9 +1,21 @@
-
+*{
+    margin:0;
+    padding:0;
+    font-style:italic;
+    font-family:'Bebas Neue';
+    text-align:justify;
+    text-transform:capitalize;
+    background-color: black;
+    }
 .card{
     align-items: center;
     text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0)  !important;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
 }
 
 .masmenos{
@@ -13,9 +25,35 @@
 }
 
 .contador{
-    font-size: 40px;
-    font-style: italic;
+    font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
     color: white;
+    background-color: black;
+}
+
+.botonesContador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.containerI {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conta{
+    background-color: rgb(132, 38, 148) !important ;
+    font-size: 30px;
+}
+
+.a{
+    justify-content: space-around;
+}
+
+.b{
+    justify-content: center;
+    align-items: center;
 }

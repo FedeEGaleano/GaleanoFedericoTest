@@ -1,33 +1,33 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Nav, Button, Container, Form, FormControl} from "react-bootstrap"
-import Carrito from "./Carrito";
+import Carrito from './Carrito'
 
 
 export default function NavBar(){
 
     return(
         <>
-        <Navbar bg="dark" variant="dark" expand="lg">
-            <Container>
-            <Navbar.Brand href="#home">
-                <img
+        <Navbar className="conta"  variant="dark" expand="lg">
+            <Container className="conta" >
+            <Navbar.Brand className="conta" href="#home">
+                <img 
                     alt=""
                     src="/logoShop.png"
                     width="200"
                     height="70"
-                    className="d-inline-block align-top"
+                    className="d-inline-block align-top conta"
                 />{' '}
             </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">HOME</Nav.Link>
-                        <Nav.Link href="#link">REMERAS</Nav.Link>
-                        <Nav.Link href="#link">BUZOS</Nav.Link>
-                        <Nav.Link href="#link">SALE! 50% OFF</Nav.Link>
+                <Navbar.Toggle className="conta" aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className="conta" id="basic-navbar-nav">
+                    <Nav className="me-auto conta">
+                        <Nav.Link className="conta" href="#home">HOME</Nav.Link>
+                        <Nav.Link className="conta" href="#link">REMERAS</Nav.Link>
+                        <Nav.Link className="conta" href="#link">BUZOS</Nav.Link>
+                        <Nav.Link className="conta" href="#link">SALE! 50% OFF</Nav.Link>
                     </Nav>
-                    <Form className="d-flex">
+                    <Form className="d-flex conta">
                         <FormControl
                             type="search"
                             placeholder="Search"
@@ -38,8 +38,8 @@ export default function NavBar(){
                     </Form>
                     
                 </Navbar.Collapse>
-                <Nav.Link>
-                <Carrito /> 
+                <Nav.Link className="conta">
+                <Carrito/>
                 </Nav.Link>
                 
             </Container>
