@@ -61,6 +61,7 @@
 .wrapper {
     display: grid;
     grid-template-columns: 500px 250px;
+    grid-template-rows: 500px;
     justify-items: start;
     align-items: center;
     color: white;

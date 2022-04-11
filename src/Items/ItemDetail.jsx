@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './ItemDetail.module.css'
-import { Container } from "react-bootstrap";
+import { Container, Carousel } from "react-bootstrap";
 import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail =({producto}) => {
@@ -9,7 +9,12 @@ const ItemDetail =({producto}) => {
         <Container className={styles.containerDetail}>
             <div className="wrapper">
                 <div className="gr1">
-                <img src={producto.img} alt={producto.name} />
+                <Carousel>
+                    <Carousel.Item> <img src={producto.img} alt={producto.name}/> </Carousel.Item>
+                    <Carousel.Item> <img src={producto.imga} alt={producto.name}/> </Carousel.Item>
+                    <Carousel.Item> <img src={producto.imgb} alt={producto.name}/> </Carousel.Item>
+                    <Carousel.Item> <img src={producto.imgc} alt={producto.name}/> </Carousel.Item>
+                </Carousel>
                 </div>
                 <div className="gr2">
                     <br/>
