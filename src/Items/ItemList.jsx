@@ -1,18 +1,15 @@
-import React from 'react'
-import Item from './Item'
+import React from "react";
+import Item from "./Item";
+import styles from './Item.module.css'
 
-function ItemList({productos}) {
-
-
+const ItemList = ({products}) => {
     return (
-        productos.map( p => (
-            <Item 
-            key={p.id}
-            nombre={p.nombre}
-            precio={p.precio}
-            image={p.image} />
-        ))
-    )
-}
+        <div className={styles.containerCards}>
+            {products.map((products) => (
+                <Item key={products.id} products={products} />
+            ))}
+        </div>
+    );
+};
 
-export default ItemList
+export default ItemList;

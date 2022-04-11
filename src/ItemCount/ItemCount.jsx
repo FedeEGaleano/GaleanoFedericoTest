@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 
-function ItemCount({stock}) {
+
+function ItemCount( {stock} ) {
     const [count, setCount] =useState(0);
 
     function adding (){
@@ -18,16 +19,18 @@ function ItemCount({stock}) {
     }
 
     return (
-    <div>
+    <Container>
         <div className='botonesContador a'>
         <Button className='masmenos' onClick={adding} variant="warning" size="lg" > + </Button>
         <a className='contador'> {count} </a>
         <Button className='masmenos' onClick={subs} variant="warning" size="lg" > - </Button>
         </div>
+        
+        <br/>
         <Button onClick={onAdd} variant="outline-warning" size="lg" > Agregar al carrito </Button>
         
-    </div>
-    )
-}
+    </Container>
+    );
+};
 
-export default ItemCount
+export default ItemCount;

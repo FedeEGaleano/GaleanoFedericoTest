@@ -34,9 +34,9 @@
 
 .botonesContador{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom:10px;
 }
 
 .containerI {
@@ -57,3 +57,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    justify-items: start;
+    align-items: center;
+    color: white;
+    
+}
+
