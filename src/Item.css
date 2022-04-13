@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    font-style:italic;
     font-family:'Bebas Neue';
     text-align:justify;
     text-transform:capitalize;
@@ -60,11 +59,86 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: 500px 250px;
+    grid-template-columns: 350px 550px;
     grid-template-rows: 500px;
-    justify-items: start;
+    justify-items: center;
     align-items: center;
     color: white;
     
 }
 
+.boton{
+    border: 3px solid  #ffe600e8;
+    background-color: #000000e8;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #ffe600e8;
+}
+
+.botonm {
+    border: 3px solid #000000e8;
+    background-color: #ffe600e8;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #000000e8;
+    
+}
+
+.boton:active{
+    color: #ffe600e8 ;
+}
+
+.carousel{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.h1{
+    color:#eaee1f;
+    font-style:italic;
+    font-weight:bolder;
+    font-size:50px;
+    font-family:'Bebas Neue';
+    text-align:justify;
+    text-transform:capitalize;
+    line-height:2;
+    text-decoration:none;
+    letter-spacing:2px;
+    word-spacing:10px}
+
+    .footerGrid{
+        display: grid;
+        grid-template-columns: 600px 550px;
+        grid-template-rows: 150px;
+        background-color:#9530b4;
+        color: #fff;
+        justify-items:start;
+        
+    }
+    
+    .fg1{
+        background-color:#9530b4;
+        margin-left: 20px;
+        
+    }
+    
+    .fg2{
+        background-color:#9530b4
+    }
+
+    .fondo{
+        background-color: #9530b4;
+    }
+
+.sus{
+    border: 3px solid #000000e8;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #000000e8;
+}

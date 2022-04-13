@@ -8,14 +8,16 @@
 }
 
 .card {
-    background-color: #fbb356e8;
+    background-color: #000000e8;
     margin: 25px;
-    border-radius: 8px;
     box-shadow: 0px 0px 12px 2px #4b4b4b3e;
+    width: 200px;
+    height: auto;
 }
 
 .card img {
-    width: 200px;
+    width: 190px;
+    height: 220px;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -27,30 +29,34 @@
     font-weight: 400;
     margin-bottom: 8px;
     font-size: 20px;
+    color: rgb(183, 181, 181);
 }
 
 .cardInfo h4 {
     font-weight: 300;
     margin-bottom: 8px;
     font-size: 18px;
+    color: rgb(183, 181, 181);
 }
 
 .cardInfo h5 {
-    background-color: #ff8000;
+    background-color:  #000000e8;
     width: 90px;
     padding: 5px 8px;
     border-radius: 8px;
     font-weight: 300;
     margin-bottom: 8px;
     font-size: 15px;
+    color: rgb(183, 181, 181);
 }
 
 .cardInfo button {
-    border: 3px solid #ff8800;
-    background-color: #fed8a5e8;
+    border: 3px solid  #ffe600e8;
+    background-color: #000000e8;
     margin: 10px 0px;
-    font-size: 16px;
+    font-size: 15px;
     padding: 5px 8px;
-    border-radius: 8px;
     cursor: pointer;
+    color: #ffe600e8;
+    
 }

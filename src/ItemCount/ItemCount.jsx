@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 
 function ItemCount( {stock} ) {
@@ -21,13 +21,13 @@ function ItemCount( {stock} ) {
     return (
     <Container>
         <div className='botonesContador a'>
-        <Button className='masmenos' onClick={adding} variant="warning" size="lg" > + </Button>
+        <button className='masmenos botonm' onClick={adding} variant="warning" size="lg" > + </button>
         <a className='contador'> {count} </a>
-        <Button className='masmenos' onClick={subs} variant="warning" size="lg" > - </Button>
+        <button className='masmenos botonm' onClick={subs} variant="warning" size="lg" > - </button>
         </div>
         
         <br/>
-        <Button onClick={onAdd} variant="outline-warning" size="lg" > Agregar al carrito </Button>
+        <button onClick={onAdd} variant="outline-warning" size="lg" className='boton'> Agregar al carrito </button>
         
     </Container>
     );
